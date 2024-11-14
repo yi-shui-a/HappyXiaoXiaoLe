@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.LoginController">
+    <ImageView fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/login.png"/>
+    </ImageView>
+    <ImageView fx:id="login" fitHeight="130.0" fitWidth="200.0" layoutX="164.0" layoutY="470.0"
+               onMouseClicked="#mouseClickedLogin" onMouseEntered="#mouseEnteredLogin" onMouseExited="#mouseExitedLogin"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/login/login.png"/>
+    </ImageView>
+    <ImageView fx:id="logon" fitHeight="128.0" fitWidth="202.0" layoutX="400.0" layoutY="470.0"
+               onMouseClicked="#mouseClickedLogon" onMouseEntered="#mouseEnteredLogon" onMouseExited="#mouseExitedLogon"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/login/logon.png"/>
+    </ImageView>
+    <TextField fx:id="id" layoutX="264.0" layoutY="272.0" prefHeight="26.0" prefWidth="333.0" promptText="点击此处输入账号~"
+               style="-fx-background-color: null;">
+        <font>
+            <Font size="28.0"/>
+        </font>
+    </TextField>
+    <PasswordField fx:id="password" layoutX="264.0" layoutY="387.0" prefHeight="57.0" prefWidth="333.0"
+                   style="-fx-background-color: null;">
+        <font>
+            <Font size="28.0"/>
+        </font>
+    </PasswordField>
+</AnchorPane>

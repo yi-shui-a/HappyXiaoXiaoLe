@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.IndexController">
+   <ImageView fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/background/index.png"/>
+   </ImageView>
+   <ImageView fx:id="startGame" fitHeight="100.0" fitWidth="200.0" layoutX="156.0" layoutY="274.0"
+              onMouseClicked="#mouseClickedStartGame" onMouseEntered="#mouseEnterStartGame"
+              onMouseExited="#mouseExitedStartGame" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/index/gameStart.png"/>
+   </ImageView>
+   <ImageView fx:id="setting" fitHeight="100.0" fitWidth="200.0" layoutX="659.0" layoutY="348.0"
+              onMouseClicked="#mouseClickedSetting" onMouseEntered="#mouseEnterSetting"
+              onMouseExited="#mouseExitedSetting" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/index/setting.png"/>
+   </ImageView>
+   <ImageView fx:id="personInf" fitHeight="100.0" fitWidth="200.0" layoutX="156.0" layoutY="407.0"
+              onMouseClicked="#mouseClickedPersonInf" onMouseEntered="#mouseEnterPersonInf"
+              onMouseExited="#mouseExitedPersonInf" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/index/personInf.png"/>
+   </ImageView>
+   <ImageView fx:id="aboutUs" fitHeight="100.0" fitWidth="200.0" layoutX="400.0" layoutY="407.0"
+              onMouseClicked="#mouseClickedAboutus" onMouseEntered="#mouseEnterAboutus"
+              onMouseExited="#mouseExitedAboutus" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/index/aboutUs.png"/>
+   </ImageView>
+   <ImageView fx:id="returnGame" fitHeight="76.0" fitWidth="79.0" layoutX="39.0" layoutY="348.0"
+              onMouseClicked="#mouseClickedReturn" onMouseEntered="#mouseEnterReturn" onMouseExited="#mouseExitedReturn"
+              pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/return.png"/>
+   </ImageView>
+   <ImageView fx:id="help" fitHeight="100.0" fitWidth="200.0" layoutX="400.0" layoutY="274.0"
+              onMouseClicked="#mouseClickedHelp" onMouseEntered="#mouseEnterHelp" onMouseExited="#mouseExitedHelp"
+              pickOnBounds="true" preserveRatio="true">
+      <Image url="@../image/button/index/help.png"/>
+   </ImageView>
+</AnchorPane>

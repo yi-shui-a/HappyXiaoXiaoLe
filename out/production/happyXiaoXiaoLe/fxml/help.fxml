@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.HelpController">
+    <ImageView fx:id="background" fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fx:id="leave" fitHeight="60.0" fitWidth="67.0" layoutX="14.0" layoutY="300.0" onMouseClicked="#mouseClickedLeave" onMouseEntered="#mouseEnteredLeave" onMouseExited="#mouseExitedLeave" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return.png" />
+    </ImageView>
+</AnchorPane>

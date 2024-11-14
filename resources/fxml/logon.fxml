@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.LogonController">
+    <ImageView fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/logon.png"/>
+    </ImageView>
+    <TextField fx:id="name" layoutX="260.0" layoutY="130.0" prefHeight="57.0" prefWidth="340.0" promptText="不支持“-”哦~"
+               style="-fx-background-color: null;">
+        <font>
+        <Font size="28.0"/>
+        </font>
+    </TextField>
+    <ImageView fx:id="leave" fitHeight="116.0" fitWidth="97.0" layoutX="651.0" layoutY="461.0"
+               onMouseClicked="#mouseClickedLeave" onMouseEntered="#mouseEnteredLeave" onMouseExited="#mouseExitedLeave"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return.png"/>
+    </ImageView>
+    <ImageView fx:id="finish" fitHeight="97.0" fitWidth="275.0" layoutX="263.0" layoutY="494.0"
+               onMouseClicked="#mouseClickedFinish" onMouseEntered="#mouseEnteredFinish"
+               onMouseExited="#mouseExitedFinish" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/personInf/over.png"/>
+    </ImageView>
+    <TextField fx:id="email" layoutX="260.0" layoutY="334.0" prefHeight="57.0" prefWidth="340.0"
+               style="-fx-background-color: null;">
+        <font>
+          <Font size="28.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="phone" layoutX="260.0" layoutY="404.0" prefHeight="57.0" prefWidth="340.0"
+               style="-fx-background-color: null;">
+        <font>
+          <Font size="28.0"/>
+        </font>
+    </TextField>
+    <PasswordField fx:id="password" layoutX="260.0" layoutY="194.0" prefHeight="57.0" prefWidth="340.0"
+                   style="-fx-background-color: null;">
+        <font>
+          <Font size="28.0"/>
+        </font>
+    </PasswordField>
+    <PasswordField fx:id="apassword" layoutX="260.0" layoutY="265.0" prefHeight="57.0" prefWidth="340.0"
+                   style="-fx-background-color: null;">
+        <font>
+          <Font size="28.0"/>
+        </font>
+    </PasswordField>
+</AnchorPane>

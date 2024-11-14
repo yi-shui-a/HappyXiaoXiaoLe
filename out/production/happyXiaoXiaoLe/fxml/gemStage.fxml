@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.GemStageController">
+    <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/stageSelect.png" />
+    </ImageView>
+    <ImageView fx:id="stage1" fitHeight="114.0" fitWidth="99.0" layoutX="80.0" layoutY="180.0" onMouseClicked="#mouseClickedStage1" onMouseEntered="#mouseEnteredStage1" onMouseExited="#mouseExitedStage1" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/1.png" />
+    </ImageView>
+    <ImageView fx:id="stage2" fitHeight="114.0" fitWidth="99.0" layoutX="205.0" layoutY="180.0" onMouseClicked="#mouseClickedStage2" onMouseEntered="#mouseEnteredStage2" onMouseExited="#mouseExitedStage2" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/2.png" />
+    </ImageView>
+    <ImageView fx:id="stage3" fitHeight="114.0" fitWidth="99.0" layoutX="330.0" layoutY="180.0" onMouseClicked="#mouseClickedStage3" onMouseEntered="#mouseEnteredStage3" onMouseExited="#mouseExitedStage3" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/3.png" />
+    </ImageView>
+    <ImageView fx:id="stage4" fitHeight="114.0" fitWidth="99.0" layoutX="455.0" layoutY="180.0" onMouseClicked="#mouseClickedStage4" onMouseEntered="#mouseEnteredStage4" onMouseExited="#mouseExitedStage4" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/4.png" />
+    </ImageView>
+    <ImageView fx:id="stage5" fitHeight="114.0" fitWidth="99.0" layoutX="580.0" layoutY="180.0" onMouseClicked="#mouseClickedStage5" onMouseEntered="#mouseEnteredStage5" onMouseExited="#mouseExitedStage5" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/5.png" />
+    </ImageView>
+    <ImageView fx:id="stage6" fitHeight="114.0" fitWidth="99.0" layoutX="80.0" layoutY="333.0" onMouseClicked="#mouseClickedStage6" onMouseEntered="#mouseEnteredStage6" onMouseExited="#mouseExitedStage6" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/6.png" />
+    </ImageView>
+    <ImageView fx:id="stage7" fitHeight="114.0" fitWidth="99.0" layoutX="205.0" layoutY="333.0" onMouseClicked="#mouseClickedStage7" onMouseEntered="#mouseEnteredStage7" onMouseExited="#mouseExitedStage7" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/7.png" />
+    </ImageView>
+    <ImageView fx:id="stage8" fitHeight="114.0" fitWidth="99.0" layoutX="325.0" layoutY="333.0" onMouseClicked="#mouseClickedStage8" onMouseEntered="#mouseEnteredStage8" onMouseExited="#mouseExitedStage8" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/8.png" />
+    </ImageView>
+    <ImageView fx:id="stage9" fitHeight="114.0" fitWidth="99.0" layoutX="455.0" layoutY="333.0" onMouseClicked="#mouseClickedStage9" onMouseEntered="#mouseEnteredStage9" onMouseExited="#mouseExitedStage9" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/9.png" />
+    </ImageView>
+    <ImageView fx:id="stage10" fitHeight="114.0" fitWidth="99.0" layoutX="580.0" layoutY="333.0" onMouseClicked="#mouseClickedStage10" onMouseEntered="#mouseEnteredStage10" onMouseExited="#mouseExitedStage10" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/gemStage/10.png" />
+    </ImageView>
+    <ImageView fx:id="leave" fitHeight="75.0" fitWidth="61.0" layoutX="130.0" layoutY="69.0" onMouseClicked="#mouseClickedLeave" onMouseEntered="#mouseEnteredLeave" onMouseExited="#mouseExitedLeave" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return.png" />
+    </ImageView>
+</AnchorPane>

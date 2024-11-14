@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.SettingController">
+    <ImageView fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/setting.png"/>
+    </ImageView>
+    <ImageView fx:id="leave" fitHeight="81.0" fitWidth="87.0" layoutX="154.0" layoutY="430.0"
+               onMouseClicked="#mouseClickedLeave" onMouseEntered="#mouseEnteredLeave" onMouseExited="#mouseExitedLeave"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return2.png"/>
+    </ImageView>
+    <ImageView fx:id="music" fitHeight="81.0" fitWidth="96.0" layoutX="360.0" layoutY="168.0"
+               onMouseClicked="#mouseClickedMusic" onMouseEntered="#mouseEnteredMusic" onMouseExited="#mouseExitedMusic"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/play.png"/>
+    </ImageView>
+    <RadioButton fx:id="button1" layoutX="284.0" layoutY="300.0" mnemonicParsing="false"
+                 onMouseClicked="#mouseClickedButton1" selected="true"/>
+    <RadioButton fx:id="button2" layoutX="284.0" layoutY="362.0" mnemonicParsing="false"
+                 onMouseClicked="#mouseClickedButton2"/>
+    <RadioButton fx:id="button3" layoutX="284.0" layoutY="430.0" mnemonicParsing="false"
+                 onMouseClicked="#mouseClickedButton3"/>
+</AnchorPane>

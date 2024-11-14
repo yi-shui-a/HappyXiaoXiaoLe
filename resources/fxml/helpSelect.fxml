@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.HelpSelectController">
+    <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/helpSelect.png" />
+    </ImageView>
+    <ImageView fx:id="adventure" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="177.0" onMouseClicked="#clickedAdventure" onMouseEntered="#enteredAdventure" onMouseExited="#exitedAdventure" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/modelSelect/adventure.png" />
+    </ImageView>
+    <ImageView fx:id="endless" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="309.0" onMouseClicked="#clickedEndless" onMouseEntered="#enteredEndless" onMouseExited="#exitedEndless" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/modelSelect/endless.png" />
+    </ImageView>
+    <ImageView fx:id="gem" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="437.0" onMouseClicked="#clickedGem" onMouseEntered="#enteredGem" onMouseExited="#exitedGem" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/modelSelect/jewel.png" />
+    </ImageView>
+    <ImageView fx:id="leave" fitHeight="78.0" fitWidth="92.0" layoutX="116.0" layoutY="387.0" onMouseClicked="#clickedLeave" onMouseEntered="#enteredLeave" onMouseExited="#exitedLeave" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return.png" />
+    </ImageView>
+</AnchorPane>

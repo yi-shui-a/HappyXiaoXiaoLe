@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="happyXiaoXiaoLe.controller.PersonInfController">
+    <ImageView fitHeight="600" fitWidth="800" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/background/personInf.png" />
+    </ImageView>
+    <ImageView fx:id="leave" fitHeight="60.0" fitWidth="67.0" layoutX="44.0" layoutY="78.0" onMouseClicked="#mouseClickedLeave" onMouseEntered="#mouseEnteredLeave" onMouseExited="#mouseExitedLeave" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/return.png" />
+    </ImageView>
+    <TextField fx:id="name0" editable="false" layoutX="104.0" layoutY="278.0" prefHeight="44.0" prefWidth="238.0" style="-fx-background-color: null;">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="id" editable="false" layoutX="104.0" layoutY="202.0" prefHeight="17.0" prefWidth="238.0" style="-fx-background-color: null;">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextField>
+    <ImageView fx:id="layout" fitHeight="81.0" fitWidth="172.0" layoutX="115.0" layoutY="344.0" onMouseClicked="#mouseClickedLayout" onMouseEntered="#mouseEnteredLayout" onMouseExited="#mouseExitedLayout" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/button/personInf/layout.png" />
+    </ImageView>
+    <ImageView fx:id="achievement1" fitHeight="121.0" fitWidth="120.0" layoutX="436.0" layoutY="160.0" onMouseEntered="#enterAchievement1" onMouseExited="#exitedAchievement1" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/imageView/personInf/通关达人-黑白.png" />
+    </ImageView>
+    <ImageView fx:id="achievement3" fitHeight="121.0" fitWidth="120.0" layoutX="436.0" layoutY="290.0" onMouseEntered="#enterAchievement3" onMouseExited="#exitedAchievement3" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/imageView/personInf/得分大师-黑白.png" />
+    </ImageView>
+    <ImageView fx:id="achievement4" fitHeight="121.0" fitWidth="120.0" layoutX="581.0" layoutY="284.0" onMouseEntered="#enterAchievement4" onMouseExited="#exitedAchievement4" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/imageView/personInf/宝石专家-黑白.png" />
+    </ImageView>
+    <ImageView fx:id="achievement2" fitHeight="121.0" fitWidth="120.0" layoutX="581.0" layoutY="162.0" onMouseEntered="#enterAchievement2" onMouseExited="#exitedAchievement2" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../image/imageView/personInf/摘星能手-黑白.png" />
+    </ImageView>
+    <TextArea fx:id="achievementT1" editable="false" layoutX="496.0" layoutY="222.0" opacity="0.0" prefHeight="60.0" prefWidth="154.0" text="成就1：通关达人&#10;获取方式：通过所有关卡" />
+    <TextArea fx:id="achievementT2" editable="false" layoutX="640.0" layoutY="222.0" opacity="0.0" prefHeight="60.0" prefWidth="140.0" text="成就2：摘星能手&#10;获取方式：冒险模式关&#10;卡均达到三星" />
+    <TextArea fx:id="achievementT4" editable="false" layoutX="640.0" layoutY="337.0" opacity="0.0" prefHeight="60.0" prefWidth="146.0" text="成就4：宝石专家&#10;获取方式：宝石模式关&#10;卡均达到三星" />
+    <TextArea fx:id="achievementT3" editable="false" layoutX="496.0" layoutY="345.0" opacity="0.0" prefHeight="60.0" prefWidth="172.0" text="成就3：得分大师&#10;获取方式：最高分达到88888" />
+    <Label fx:id="adventure" alignment="CENTER" layoutX="115.0" layoutY="510.0" prefHeight="36.0" prefWidth="113.0">
+        <font>
+          <Font size="26.0" />
+        </font>
+    </Label>
+    <Label fx:id="gem" alignment="CENTER" layoutX="559.0" layoutY="510.0" prefHeight="36.0" prefWidth="113.0">
+        <font>
+          <Font size="26.0" />
+        </font>
+    </Label>
+    <Label fx:id="endless" alignment="CENTER" layoutX="335.0" layoutY="510.0" prefHeight="36.0" prefWidth="113.0">
+        <font>
+          <Font size="26.0" />
+        </font>
+    </Label>
+</AnchorPane>
